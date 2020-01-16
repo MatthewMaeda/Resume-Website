@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Resume Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+  
+        <body>
+        <div id="wrapper">
+        <!-- Sidebar/Navigation -->
+        <header id="topHeader">
+            <div id="sideNavID" class="sideNav">
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+            <ul class="sidebar-list">
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">Portfolio</a></li>
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">About Me</a></li>
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">Experience</a></li>
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">Contact</a></li>
+              </ul>
+            </div>
+            <!-- Opens the sideNav -->
+            <span onclick="openNav()"><img class="menuIcon" src="gallery/menuIcon.png" width="120px" height="120" style="padding-bottom: 0px; padding-left: 0px; cursor: pointer;"></span>
+            <!-- Social buttons top Nav -->
+            <div class="social-list">
+            <ul class='socials'>
+                    <li>
+                    <a class="social social-linkedin" href="linkedin.html"><img class="linkedinIcon" src="gallery/linkedin.png" width="20px" height="20px">    
+                        <span>Linkedin</span>
+                    </a> 
+                    </li>
+                    
+                    <li>
+                    <a class="social social-github" href="github.html"><img class="githubIcon" src="gallery/github.png" width="20px" height="20px"> 
+                        <span>Github</span>
+                    </a>
+                    </li>
+                    
+                    <li>
+                    <a class="social social-slack" href="slack.html"><img class="linkedinIcon" src="gallery/slack.png" width="20px" height="20px"> 
+                        <span>Slack</span>
+                    </a>
+                    </li>
+                    
+                    <li>
+                    <a class="social social-email" href="email.html"><img class="linkedinIcon" src="gallery/email.png" width="20px" height="20px"> 
+                    <span>Email</span>
+                    </a> 
+                    </li>
+                </ul>
+                </div>  
+        </header>
+          <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+          <div id="main">
+          </div>
+
+        <script src="script.js"></script>
+    </div>
+    </body>
+
+</html>
