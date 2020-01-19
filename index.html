@@ -6,16 +6,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="header">
             <!-- header name -->
-            <h1 class="name">
+            <h1 id="positionName" class="name">
                 <span>Matthew</span>
-                <span>Maeda</span>
+                <span class="displaced">Maeda</span>
             </h1>
-            
-
+            <!-- Social panel -->
             <ul class='socials'>
                 <!-- linkedin container -->
                 <li>
@@ -43,20 +44,36 @@
                 </li>
             </ul>
         </div>
-        <!-- Rows and Colums -->
+        <!-- Rows and columns -->
         <div class="row">
-            <div class="column side" style="background-color:#aaa;">First Column
+            <div class="column side" style="background-image: linear-gradient(to left, #3EB8FB, rgb(31, 166, 238));">First Column
+                <div class="triangles">
+                    <div class="triOne">
+                        <a href="#" class="shapeRight effectRight" id="shape1" onClick="expand1();"></a>
+                    </div>
+                    <div class="triTwo">
+                        <a href="#" class="shapeLeft effectLeft" id="shape2" onClick="expand2();"></a>
+                    </div>
+                    <div class="triThree">
+                        <a href="#" class="shapeRight effectRight" id="shape3" onClick="expand3();"></a>
+                    </div>
+                    <div class="triFour">
+                        <a href="#" class="shapeLeft effectLeft" id="shape4" onClick="expand4();"></a>
+                    </div>
+                    <div class="triFive">
+                        <a href="#" class="shapeRight effectRight" id="shape5" onClick="expand5();"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="column middle" style="background-color:#3EB8FB;">Middle Column
             
             </div>
-            <div class="column middle" style="background-color:#bbb;">Middle Column
-            
-            </div>
-            <div class="column side" style="background-color:#ccc;">Last Column
+            <div class="column side" style="background-image: radial-gradient(closest-side at 60% 55%, white, #3EB8FB, #3EB8FB);">Last Column
             
             </div>
         </div>
         
-        <div class="footer">
+        <div class="footer" style="background-color:#171E26">
             <p>Footer</p>
         </div>
 
