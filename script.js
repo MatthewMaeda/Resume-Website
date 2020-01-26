@@ -6,19 +6,21 @@ function expand1() {
     let shape = document.getElementById("shape1");
     // class from css
     shape.classList.toggle("shape1");
-
+        
+    
+        
     // resets other shapes 2,3,4,5. Removes then Adds to its original size 
-    document.getElementById("shape2").classList.remove("shape2");
-    document.getElementById("shape2").classList.add("shapeLeft");
+        document.getElementById("shape2").classList.remove("shape2");
+        document.getElementById("shape2").classList.add("shapeLeft");
 
-    document.getElementById("shape3").classList.remove("shape1");
-    document.getElementById("shape3").classList.add("shapeRight");
+        document.getElementById("shape3").classList.remove("shape1");
+        document.getElementById("shape3").classList.add("shapeRight");
 
-    document.getElementById("shape4").classList.remove("shape2");
-    document.getElementById("shape4").classList.add("shapeLeft");
+        document.getElementById("shape4").classList.remove("shape2");
+        document.getElementById("shape4").classList.add("shapeLeft");
 
-    document.getElementById("shape5").classList.remove("shape1");
-    document.getElementById("shape5").classList.add("shapeRight");
+        document.getElementById("shape5").classList.remove("shape1");
+        document.getElementById("shape5").classList.add("shapeRight");
 
 }
 

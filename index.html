@@ -13,9 +13,16 @@
         <div class="header">
             <!-- header name -->
             <h1 id="positionName" class="name">
-                <span>Matthew</span>
-                <span class="displaced">Maeda</span>
+                <a href="index.html"><img class="homeIcon" src="gallery/HomeIcon1.png"></a>
+                <span class="logoText">Font<br><span class="port">Portfolio</span><br>End</span>
             </h1>
+
+            <!-- Search bar -->
+            <div class="search">
+                <input id="search" class="searchBar" placeholder="What are you looking for?">
+                <img onclick="searchFunction()" class="searchIcon" src="gallery/search.png">
+            </div>
+
             <!-- Social panel -->
             <ul class='socials'>
                 <!-- linkedin container -->
@@ -46,7 +53,7 @@
         </div>
         <!-- Rows and columns -->
         <div class="row">
-            <div class="column side" style="background-image: linear-gradient(to left, #3EB8FB, rgb(31, 166, 238));">First Column
+            <div class="column side" style="background-image: linear-gradient(to left, #3EB8FB, rgb(24, 154, 224));">First Column
                 <div class="triangles">
                     <div class="triOne">
                         <a href="#" class="shapeRight effectRight" id="shape1" onClick="expand1();"></a>
@@ -64,15 +71,92 @@
                         <a href="#" class="shapeRight effectRight" id="shape5" onClick="expand5();"></a>
                     </div>
                 </div>
+                
+
             </div>
+
             <div class="column middle" style="background-color:#3EB8FB;">Middle Column
-            
+                <div class="shapes">
+                    <div class="dots0">.</div>
+                    <div class="fullCir0"></div>
+                    <div class="lineWhite0"></div>
+                    <div class="lineThrough0"></div>
+                    <div class="circle75"></div>
+                    <div class="smallLine"></div>
+                    <div class="fullCir"></div>
+                    <div class="lineWhite"></div>
+                    <div class="lineThrough"></div>
+                    <div class="solidTri">▲</div>
+                    <div class="hollowCir"></div>
+                    <div class="hollowTri">&#9650;</div>  <!-- Text the makes a triangle &#9650; -->
+                    <div class="lineWhite2"></div>
+                    <div class="fullCir2"></div>
+                    <div class="lineThrough2"></div>
+                    <div class="lineThrough3"></div>
+                    <div class="dots1">.</div>
+
+                </div>
             </div>
-            <div class="column side" style="background-image: radial-gradient(closest-side at 60% 55%, white, #3EB8FB, #3EB8FB);">Last Column
-            
+            <div class="column side" style="background-image: linear-gradient(to right, #3EB8FB, rgb(85, 190, 247));">Last Column
             </div>
         </div>
         
+        <div class="main" style="background-color:#171E26">
+            <!-- Photo Grid -->
+            <div class="picture-rows">
+                <!-- First -->
+                <div class="resp-width con-padding margin-bottom">
+                  <img src="gallery/picture1.jpg" alt="Norway" style="width:100%" class="con-img">
+                  <div class="con-padding con-color">
+                    <p><b>Lanikai Beach</b></p>
+                    <p class="con-Para"> Beach located in a community in the town of Kailua and on the windward coast of Oahu.</p>
+                  </div>
+                </div>
+                <!-- Second -->
+                <div class="resp-width con-padding margin-bottom">
+                    <img src="gallery/picture2.jpg" alt="Norway" style="width:100%" class="con-img">
+                    <div class="con-padding con-color">
+                      <p><b>Sharks Cove</b></p>
+                      <p class="con-Para">Small cove & popular shore diving & snorkeling site with coral & blue waters teeming with fish.</p>
+                    </div>
+                </div>
+                <!-- Third -->
+                <div class="resp-width con-padding margin-bottom">
+                    <img src="gallery/picture3.jpg" alt="Norway" style="width:100%" class="con-img">
+                    <div class="con-padding con-color">
+                        <p><b>Sunset Beach</b></p>
+                        <p class="con-Para">On the North Shore of Oahu and known for big wave surfing during the winter season.</p>
+                    </div>
+                </div>
+                <!-- Fourth -->
+                <div class="resp-width con-padding margin-bottom">
+                    <img src="gallery/picture4.jpg" alt="Norway" style="width:100%" class="con-img">
+                    <div class="con-padding con-color">
+                        <p><b>Mystery Wreck</b></p>
+                        <p class="con-Para">A beautiful ship that was originally a Chinese trading vessel. Test of courage at night.</p>
+                </div>
+                </div>
+                <!-- Fifth -->
+                <div class="resp-width con-padding margin-bottom">
+                    <img src="gallery/picture5.jpg" alt="Norway" style="width:100%" class="con-img">
+                    <div class="con-padding con-color">
+                        <p><b>Mānana</b></p>
+                        <p class="con-Para">Also known locally as Rabbit Island, it is an uninhabited islet on the eastern end.</p>
+                    </div>
+                </div>
+                <!-- Sixth -->
+                <div class="resp-width con-padding margin-bottom">
+                    <img src="gallery/picture6.jpg" alt="Norway" style="width:100%" class="con-img">
+                    <div class="con-padding con-color">
+                        <p><b>Kailua Beach</b></p>
+                        <p class="con-Para">It's a crescent-shaped beach and very nice corals reefs with a good amount of fish.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
         <div class="footer" style="background-color:#171E26">
             <p>Footer</p>
         </div>
