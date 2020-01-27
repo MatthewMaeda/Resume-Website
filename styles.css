@@ -69,6 +69,36 @@ body {
         
 }
 
+/* JavaScript for Columns */
+.row {
+    -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
+    animation: background 5s cubic-bezier(1,0,0,1) infinite; 
+}
+.changeColor1 {
+    @-webkit-keyframes background {
+        0% { background-color: #f99; }
+        33% { background-color: #9f9; }  
+        67% { background-color: #99f; }
+        100% { background-color: #f99; }
+      }
+}
+
+.changeColor2 {
+    
+}
+
+.changeColor3 {
+    
+}
+
+.changeColor4 {
+    
+}
+
+.changeColor5 {
+    
+}
+
 /* main */
 .main {
     background-color: #f1f1f1;
@@ -443,16 +473,20 @@ body {
   /* Start of Column Middle */
 .shape-direction {
     list-style-type: none;
+    height: 480px;
+    
 }
 
 .shapes {
+    
+    justify-content: center;
     position: relative;
     bottom: 15px;
     list-style-type: none;
 }
 
 .dots0 {
-    display: flex;
+    margin: 0;
     background-image: linear-gradient(to right, white 10%, rgba(255, 255, 255, 0) 0%);
     background-position: bottom;
     background-size: 20px 7px;
@@ -466,7 +500,7 @@ body {
 }
 
 .fullCir0 {
-    display: flex;
+    margin: 0;
     border: 2px solid #03F2EF;
     background-color: #03F2EF;
     border-radius: 50%;
@@ -484,6 +518,7 @@ body {
 }
 
 .lineWhite0 {
+    margin: 0;
     width: 270px;
     border-bottom: 1px solid white;
     -webkit-transform:
@@ -500,6 +535,7 @@ body {
 }
 
 .lineThrough0 {
+    margin: 0;
     width: 250px;
     border-bottom: 2px solid #03F2EF;
     -webkit-transform:
@@ -512,7 +548,7 @@ body {
 }
 
 .circle75 {
-    display: flex;
+    margin: 0;
     border: 2px solid white;
     border-radius: 50%;
     height: 250px;
@@ -527,6 +563,7 @@ body {
 }  
 
 .smallLine {
+    margin: 0;
     width: 70px;
     height: 60px;
     border-bottom: 4px solid #03F2EF;
@@ -540,7 +577,7 @@ body {
 }
 
 .fullCir {
-    display: flex;
+    margin: 0;
     border: 2px solid white;
     background-color: white;
     border-radius: 50%;
@@ -554,6 +591,7 @@ body {
 }
 
 .lineWhite {
+    margin: 0;
     width: 300px;
     border-bottom: 4px solid white;
     -webkit-transform:
@@ -570,19 +608,19 @@ body {
 }
 
 .lineThrough {
+    margin: 0;
     width: 650px;
     border-bottom: 2px solid #03F2EF;
     -webkit-transform:
-        translateY(2px)
+        translateY(3px)
         translateX(1px)
         rotate(-50deg);
     position: relative;
-    bottom: 175px;
+    bottom: 155px;
     left: 300px;
 }
 
 .solidTri {   
-    display: flex;
     justify-content: center;
     font-size: 50px;
     -webkit-transform:
@@ -594,13 +632,15 @@ body {
       0 10px 4px rgba(0,0,0,0.5);
     color: #03F2EF;
     user-select: none; /* allows item to be be selected */
+    width: 100px;
+    margin: 0;
     position: relative;
     bottom: 300px;
-    left: 220px; 
+    left: 600px; 
 }
 
 .hollowCir {
-    display: flex;
+    margin: 0;
     border: 2px solid white;
     border-radius: 50%;
     height: 40px;
@@ -612,7 +652,7 @@ body {
 }
 
 .hollowTri {
-    display: flex;
+    margin: 0;
     justify-content: center;
     width: 100px;
     height: 100px;
@@ -631,6 +671,7 @@ body {
 }
 
 .lineWhite2 {
+    margin: 0;
     width: 200px;
     border-bottom: 4px solid white;
     -webkit-transform:
@@ -647,7 +688,7 @@ body {
 }
 
 .fullCir2 {
-    display: flex;
+    margin: 0;
     justify-content: center;
     border: 2px solid white;
     background-color: white;
@@ -661,6 +702,7 @@ body {
 }
 
 .lineThrough2 {
+    margin: 0;
     width: 420px;
     border-bottom: 2px solid #03F2EF;
     -webkit-transform:
@@ -669,10 +711,11 @@ body {
         rotate(-50deg);
     position: relative;
     bottom: 328px;
-    left: 1050px;
+    left: 1020px;
 }
 
 .lineThrough3 {
+    margin: 0;
     width: 100px;
     border-bottom: 2px solid #03F2EF;
     -webkit-transform:
@@ -681,11 +724,11 @@ body {
         rotate(-50deg);
     position: relative;
     bottom: 370px;
-    left: 1340px;
+    left: 1280px;
 }
 
 .dots1 {
-    display: flex;
+    margin: 0;
     background-image: linear-gradient(to left, white 10%, rgba(255, 255, 255, 0) 0%);
     background-position: bottom;
     background-size: 20px 7px;
@@ -693,7 +736,7 @@ body {
     opacity: 0.2;
     position: relative;
     color: transparent;
-    left: 1000px;
+    left: 490px;
     bottom: 300px;
     user-select: none; /* allows item to be be selected */
 }
